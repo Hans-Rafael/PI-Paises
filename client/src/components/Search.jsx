@@ -11,7 +11,7 @@ export default function Search({setCurrPage}) {
     const handleChange = e =>{
         e.preventDefault();
         setName(e.target.value);
-        dispatch(getName(e.target.value)); //because this no need submit botton
+        dispatch(getName(e.target.value)); //because this no need submit botton.
        
     }
     
